@@ -5,7 +5,6 @@ import { useAddProductMutation } from "../../redux/productapi";
 
 const AddProduct = () => {
   const [addProduct, { isLoading }] = useAddProductMutation();
-
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -41,7 +40,7 @@ const AddProduct = () => {
         resetForm();
       } catch (error) {
         console.log(error);
-        alert("Error adding product ❌");
+        alert("Error adding prod");
       }
     },
   });
