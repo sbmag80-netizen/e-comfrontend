@@ -19,7 +19,7 @@ export const productApi = createApi({
     }),
 
     // 🔹 Get Single Product
-    getProductById: builder.qauery({
+    getProductById: builder.query({
       query: (id) => ({
         url: `/${id}`,
         method: "GET",
