@@ -5,6 +5,7 @@ export const productApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "https://e-com-self-pi.vercel.app/api/products",
     // baseUrl: "http://localhost:5000/api/products",
+    credentials:"include"
   }),
   tagTypes: ["Product"],
   endpoints: (builder) => ({

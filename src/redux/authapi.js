@@ -12,6 +12,7 @@ export const authapi = createApi({
       if (token) headers.set("Authorization", `Bearer ${token}`);
       return headers;
     },
+    credentials:"include"
   }),
   tagTypes: ["Auth"],
   endpoints: (builder) => ({
