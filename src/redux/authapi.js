@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const authapi = createApi({
   reducerPath: "authapi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://e-com-delta-one.vercel.app/api/auth", // your auth backend base URL
+    baseUrl: "https://e-com-self-pi.vercel.app/api/auth", // your auth backend base URL
     // baseUrl: "http://localhost:5000/api/auth", // your auth backend base URL
     prepareHeaders: (headers) => {
       // optional: attach token from localStorage or state

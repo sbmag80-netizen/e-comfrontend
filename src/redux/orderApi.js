@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const orderApi = createApi({
   reducerPath: "orderApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://e-com-delta-one.vercel.app/api/order", // change if needed
+    baseUrl: "https://e-com-self-pi.vercel.app/api/order", // change if needed
     // baseUrl: "http://localhost:5000/api/order", // change if needed
     prepareHeaders: (headers, { getState }) => {
        const state = getState();
