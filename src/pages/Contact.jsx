@@ -1,6 +1,7 @@
 import React from "react";
 
 const Contact = () => {
+  const let =10
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center py-20 px-4">
       <h1 className="text-5xl font-bold text-indigo-600 mb-6 text-center">
